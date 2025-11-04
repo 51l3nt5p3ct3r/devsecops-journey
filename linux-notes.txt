@@ -1,24 +1,50 @@
-ls — מציג קבצים בתיקייה הנוכחית  
-pwd — מציג את הנתיב הנוכחי  
-cd <path> — מעבר בין תיקיות  
-mkdir <name> — יצירת תיקייה חדשה  
-touch <file> — יצירת קובץ חדש (ב-Windows אפשר גם ni <file>)  
-cat <file> — הצגת תוכן של קובץ  
-cp <src> <dst> — העתקת קובץ או תיקייה  
-mv <src> <dst> — העברת או שינוי שם של קובץ  
-rm <file> — מחיקת קובץ  
-rm -r <dir> — מחיקת תיקייה  
-grep "<text>" <fil
+=====================================
+DevSecOps Journey – 51l3nt5p3ct3r
+=====================================
 
-Day 1 Practice:
-- תרגלתי יצירת קבצים ותיקיות.
-- למדתי איך למצוא ולשנות קבצים דרך ה־Terminal.
-- הבנתי איך להשתמש ב־grep כדי למצוא מילים בקובץ.
+Day 1 – Linux Basics
+--------------------
+Basic commands and file operations learned:
+
+ls           — list directory contents  
+pwd          — print working directory  
+cd <path>    — change directory  
+mkdir <dir>  — create a new directory  
+touch <file> — create a new file (use 'ni' in PowerShell)  
+cat <file>   — show file content  
+cp <src> <dst> — copy file or folder  
+mv <src> <dst> — move or rename file/folder  
+rm <file>    — remove file  
+rm -r <dir>  — remove directory recursively  
+grep "<text>" <file> — search for text inside a file  
+find . -name "<pattern>" — search files by name  
+chmod +x <file> — change file permissions (Linux only)  
+curl <url>   — download data from a URL  
+wget <url>   — download file from a URL  
+
+Practice Summary:
+- Practiced creating, moving, and deleting files/folders.
+- Learned how to search inside files.
+- Started using Git and GitHub for version control.
 
 -------------------------------------
-Day 2 – PowerShell Automation
 
-- Cleaned my first PowerShell automation script.
-- Learned how to structure output messages with colors and clarity.
-- Practiced good version control: updated the script, committed changes, and pushed to GitHub.
-- Building habits of documenting every change and maintaining readable, professional code.
+Day 2 – PowerShell Automation
+-----------------------------
+Learned the fundamentals of automation scripting:
+
+- Created first PowerShell script (`auto_setup.ps1`).
+- Script automatically creates a logs directory and writes system info.
+- Learned about variables, conditions, file output, and encoding (UTF-8).
+- Cleaned the script.
+- Practiced using functions for color-coded messages ([OK], [INFO], [WARN]).
+- Performed proper Git workflow: add → commit → push.
+- Understood the importance of documentation and consistent code style.
+
+-------------------------------------
+
+Upcoming:
+----------
+Day 3 – Interactive Automation (menu-based script)
+- Build a script that allows user choices (create log / clean logs / exit).
+- Focus on modular scripting and automation mindset.
