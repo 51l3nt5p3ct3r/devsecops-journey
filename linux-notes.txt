@@ -14,3 +14,11 @@ Day 1 Practice:
 - תרגלתי יצירת קבצים ותיקיות.
 - למדתי איך למצוא ולשנות קבצים דרך ה־Terminal.
 - הבנתי איך להשתמש ב־grep כדי למצוא מילים בקובץ.
+
+-------------------------------------
+Day 2 – PowerShell Automation
+
+- Cleaned my first PowerShell automation script.
+- Learned how to structure output messages with colors and clarity.
+- Practiced good version control: updated the script, committed changes, and pushed to GitHub.
+- Building habits of documenting every change and maintaining readable, professional code.
