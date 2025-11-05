@@ -49,3 +49,12 @@ Day 3 – Interactive Automation Script
 - Learned about loops, switch-case, and user input.
 - Implemented log management functions (create, clean, view).
 - Practiced clean and modular scripting structure.
+
+-------------------------------------
+Day 4 – Real-World Automation (Build Simulator)
+
+- Created a PowerShell build simulation script.
+- Learned to collect environment data dynamically.
+- Logged both text and JSON reports for CI/CD-style visibility.
+- Implemented step-by-step pipeline simulation with success/failure tracking.
+- Practiced modular coding and structured output.

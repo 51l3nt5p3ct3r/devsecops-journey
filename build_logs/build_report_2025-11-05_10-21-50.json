@@ -1,0 +1,33 @@
+﻿{
+    "Environment":  {
+                        "User":  "danie",
+                        "Machine":  "DANIMELPC",
+                        "OS_Version":  "Microsoft Windows NT 10.0.22631.0",
+                        "PS_Version":  "5.1.22621.6060",
+                        "Working_Dir":  "C:\\Users\\danie\\OneDrive\\שולחן העבודה\\devsecops-journey",
+                        "Timestamp":  "2025-11-05_10-21-50"
+                    },
+    "Results":  [
+                    {
+                        "Step":  "Check Environment",
+                        "Status":  "Success",
+                        "Time":  "10:21:50"
+                    },
+                    {
+                        "Step":  "Compile Source Code",
+                        "Status":  "Success",
+                        "Time":  "10:21:52"
+                    },
+                    {
+                        "Step":  "Run Unit Tests",
+                        "Status":  "Success",
+                        "Time":  "10:21:53"
+                    },
+                    {
+                        "Step":  "Package Artifacts",
+                        "Status":  "Success",
+                        "Time":  "10:21:53"
+                    }
+                ],
+    "Overall":  "Success"
+}
