@@ -42,9 +42,10 @@ Learned the fundamentals of automation scripting:
 - Understood the importance of documentation and consistent code style.
 
 -------------------------------------
+-------------------------------------
+Day 3 – Interactive Automation Script
 
-Upcoming:
-----------
-Day 3 – Interactive Automation (menu-based script)
-- Build a script that allows user choices (create log / clean logs / exit).
-- Focus on modular scripting and automation mindset.
+- Built a PowerShell menu-driven automation tool.
+- Learned about loops, switch-case, and user input.
+- Implemented log management functions (create, clean, view).
+- Practiced clean and modular scripting structure.
